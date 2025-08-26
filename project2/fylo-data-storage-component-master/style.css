@@ -1,0 +1,126 @@
+.attribution {
+      font-size: 12px;
+      text-align: center;
+    }
+    .box {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+      height: 500px;
+      background-color: hsl(215, 64%, 9%);
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+      margin: 50px auto;
+    }
+    .newimg{
+      display: flex;
+      width: 100%;
+      height: 250px;
+      margin-top: 250px;
+      position: absolute;
+    }
+    .subdiv{
+      display: flex;
+      width: 100%;
+      height: 200px;
+      position: absolute;
+    }
+    .div1{
+      width: 50%;
+      display: flex;
+      justify-content: end;
+      align-items: center;
+    }
+    .div2{
+      width: 50%;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+    }
+    .innerbox1{
+      background-color: #1e2a4a;
+      width: 280px;
+      height: 160px;
+      color: white;
+      border-radius: 10px;
+      border-top-right-radius: 80px;
+      display: flex;
+      flex-direction: column;
+    }
+    .logoimgdiv{
+      display: flex;
+      width: 50%;
+      height: 40%;
+      margin-left: 20px;
+    }
+    .logo{
+      width: 100px;
+      height: 30px;
+      margin-top: 10px;
+      padding: 8px;
+      display: flex;
+    }
+    .innerbox1-div2{
+      height: 60%;
+      display: flex;
+      justify-content: start;
+      align-items: start;
+      margin-left: 20px;
+      margin-top: 14px;
+    }
+    .docimg{
+      width: 16px;
+      height: 16px;
+      margin: 4px;
+      background: rgb(4, 4, 56);
+      padding: 10px;
+      border-radius: 5px;
+      display: flex;
+    }
+
+    .storage-box {
+      background-color: #1e2a4a;
+      padding: 20px;
+      border-radius: 10px;
+      width: 350px;
+      text-align: center;
+      position: relative;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+    .para{
+      color: #cbd4ff;
+    }
+    .bubble {
+      position: absolute;
+      top: -25px;
+      right: 20px;
+      background: white;
+      color: black;
+      padding: 8px 15px;
+      border-radius: 8px;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .progress-bar {
+      background: #0b1736;
+      height: 15px;
+      border-radius: 10px;
+      margin: 15px 0;
+    }
+
+    .progress {
+      height: 100%;
+      width: 81.5%;
+      background: linear-gradient(to right, #ffa399, #ff4d97);
+      border-radius: 10px;
+    }
+
+    .scale {
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+      color: #cbd4ff;
+    }
